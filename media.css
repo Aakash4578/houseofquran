@@ -1,0 +1,593 @@
+/* Media Queries */
+
+/* For devices with a max width of 1200px (large desktops) */
+@media (max-width: 1200px) {
+    .all-heading {
+        font-size: 32px; /* Adjust heading size for large screens */
+    }
+    .allbtn {
+        padding: 10px 20px; /* Adjust button padding */
+    }
+}
+
+/* For devices with a max width of 992px (desktops) */
+@media (max-width: 992px) {
+    #preloader {
+        display: flex; /* Ensure preloader is visible */
+    }
+    .all-heading {
+        font-size: 28px; /* Adjust heading size for medium screens */
+    }
+    .underline-line {
+        width: 40px; /* Adjust underline line width */
+    }
+}
+
+/* For devices with a max width of 768px (tablets) */
+@media (max-width: 768px) {
+    #preloader {
+        flex-direction: column; /* Stack items in preloader */
+    }
+    .all-heading {
+        font-size: 24px; /* Adjust heading size for smaller screens */
+    }
+    .underline-line {
+        width: 30px; /* Further adjust underline line width */
+    }
+    .allbtn {
+        padding: 10px 15px; /* Adjust button padding */
+        width: 100%; /* Make buttons full width */
+    }
+}
+
+/* For devices with a max width of 576px (mobile phones) */
+@media (max-width: 576px) {
+    #preloader {
+        justify-content: center; /* Center content in preloader */
+        align-items: center;
+    }
+    .all-heading {
+        font-size: 20px; /* Further adjust heading size */
+    }
+    .underline-line {
+        width: 20px; /* Further adjust underline line width */
+    }
+    .loader {
+        font-size: 18px; /* Smaller loader text */
+    }
+    .allbtn {
+        padding: 8px 12px; /* Smaller button padding */
+    }
+}
+
+/* For very small devices (e.g., extra small phones) */
+@media (max-width: 360px) {
+    .all-heading {
+        font-size: 18px; /* Final adjustment for heading size */
+    }
+    .loader {
+        font-size: 16px; /* Final adjustment for loader text */
+    }
+    .allbtn {
+        padding: 6px 10px; /* Final adjustment for button padding */
+    }
+}
+
+
+
+/* navbar  */
+/* Media Queries for Responsive Navbar */
+
+/* For devices with a max width of 1200px (large desktops) */
+@media (max-width: 1200px) {
+    .navbar-nav .nav-link {
+        font-size: 13px; /* Adjust font size for large screens */
+    }
+}
+
+/* For devices with a max width of 992px (desktops) */
+@media (max-width: 992px) {
+    .navbar-nav .nav-item {
+        margin-right: 10px; /* Adjust margin for nav items */
+    }
+    .navbar-nav .nav-link {
+        font-size: 12px; /* Smaller font size */
+    }
+}
+
+/* For devices with a max width of 768px (tablets) */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 10px; /* Adjust padding */
+    }
+    .navbar-nav .nav-item {
+        margin-right: 5px; /* Further reduce margin */
+    }
+    .navbar-nav .nav-link {
+        font-size: 11px; /* Smaller font size for tablets */
+        padding: 15px 0; /* Adjust padding */
+    }
+}
+
+/* For devices with a max width of 576px (mobile phones) */
+@media (max-width: 576px) {
+    .navbar {
+        padding: 5px; /* Reduce padding for mobile */
+    }
+    .navbar-nav .nav-item {
+        margin-right: 2px; /* Minimize margin */
+    }
+    .navbar-nav .nav-link {
+        font-size: 10px; /* Even smaller font size */
+    }
+}
+
+
+/* bannner  */
+/* Media Queries for Responsive Banner Section */
+
+/* For devices with a max width of 1200px (large desktops) */
+@media (max-width: 1200px) {
+    .banner-section {
+        height: 500px; /* Adjust height for large screens */
+    }
+    
+    .banner-content h1 {
+        font-size: 40px; /* Adjust heading size */
+    }
+
+    .banner-content p {
+        font-size: 16px; /* Adjust paragraph size */
+    }
+}
+
+/* For devices with a max width of 992px (desktops) */
+@media (max-width: 992px) {
+    .banner-section {
+        height: 400px; /* Further reduce height */
+    }
+    
+    .banner-content h1 {
+        font-size: 36px; /* Smaller heading */
+    }
+
+    .banner-content p {
+        font-size: 15px; /* Smaller paragraph */
+    }
+}
+
+/* For devices with a max width of 768px (tablets) */
+@media (max-width: 768px) {
+    .banner-section {
+        height: 300px; /* Reduce height for tablets */
+    }
+    
+    .banner-content {
+        padding: 10px; /* Adjust padding for better spacing */
+    }
+
+    .banner-content h1 {
+        font-size: 28px; /* Smaller heading for tablets */
+        margin-bottom: 5px; /* Reduce margin */
+    }
+
+    .banner-content p {
+        font-size: 14px; /* Smaller paragraph */
+    }
+}
+
+/* For devices with a max width of 576px (mobile phones) */
+@media (max-width: 576px) {
+    .banner-section {
+        height: 250px; /* Further reduce height for mobile */
+        background-position: center top; /* Adjust background position */
+    }
+    
+    .banner-content {
+        padding: 5px; /* Reduce padding for mobile */
+    }
+
+    .banner-content h1 {
+        font-size: 22px; /* Much smaller heading */
+        margin-bottom: 3px; /* Reduce margin */
+    }
+
+    .banner-content p {
+        font-size: 12px; /* Smaller paragraph */
+    }
+
+    .allbtn {
+        padding: 10px 20px; /* Adjust button size */
+        font-size: 14px; /* Adjust button text size */
+    };
+
+}
+/* banner  */
+.banner-section {
+    height: 600px; /* آپ کی اصل اونچائی */
+}
+
+@media (max-width: 576px) {
+    .banner-section {
+        height: 250px; /* موبائل کے لیے کم اونچائی */
+    }
+}
+
+/* Navbar کی اونچائی کم کریں تاکہ بنر کے اوپر صحیح طور پر نظر آئے */
+.navbar {
+    padding: 10px 20px; 
+    background-color: transparent; 
+    transition: background-color 0.3s ease; 
+    position: fixed; 
+    width: 100%; 
+    z-index: 1000; 
+    top: 0; /* یہ یقینی بناتا ہے کہ navbar ہمیشہ اوپر رہے */
+}
+/* banner  */
+.banner-section {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: url('../images/2.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    opacity: 0.5; 
+    z-index: 1; 
+}
+
+.banner-section > * {
+    position: relative;
+    z-index: 2; 
+}
+
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 800px;
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--white-text);
+}
+
+.banner-content h1 strong {
+    color: var(--text-color);
+    background-color: var(--background-color);
+    padding: 1%;
+    border-radius: 50% 10% 10% 50% / 10% 50% 10% 50%;
+    font-weight: bold;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: var(--white-text);
+}
+
+@media (max-width: 576px) {
+    .banner-content p {
+        display: none; /* یہ لائن <p> عنصر کو موبائل اسکرینز پر چھپاتی ہے */
+    }
+}
+/* end  */
+
+
+/* abouts  */
+
+@media (max-width: 768px) {
+    .about-section {
+        padding: 20px 10px; /* پیڈنگ کو کم کریں */
+    }
+
+    .about-section h2 {
+        font-size: 1.5em; /* عنوان کا سائز کم کریں */
+        text-align: center; /* عنوان کو مرکز میں رکھیں */
+    }
+
+    .about-content p {
+        font-size: 1em; /* پیراگراف کا سائز کم کریں */
+        text-align: center; /* پیراگراف کو مرکز میں رکھیں */
+    }
+
+    .about-image {
+        display: flex; /* Flexbox استعمال کریں */
+        justify-content: center; /* تصویر کو مرکز میں رکھیں */
+        padding: 10px 0; /* اوپر اور نیچے کی padding کم کریں */
+    }
+
+    .about-image img {
+        width: 80%; /* تصویر کی چوڑائی کم کریں */
+        border-radius: 50% 10% 50 10% /10% 50% 10% 50% ; /* گول شکل دیں */
+    }
+
+    .about-section .card {
+        margin: 10px auto; /* کارڈ کا مارجن کم کریں اور مرکز میں رکھیں */
+        width: 90%; /* کارڈ کی چوڑائی کو 90% کریں */
+    }
+
+    .about-section .icon {
+        font-size: 40px; /* آئیکن کا سائز کم کریں */
+        display: flex; /* Flexbox استعمال کریں */
+        justify-content: center; /* آئیکن کو مرکز میں رکھیں */
+    }
+
+    .about-section .post-header {
+        font-size: 18px; /* پوسٹ ہیڈر کا سائز کم کریں */
+        text-align: center; /* پوسٹ ہیڈر کو مرکز میں رکھیں */
+    }
+
+    .about-section .post-list li {
+        font-size: 14px; /* فہرست کی اشیاء کا سائز کم کریں */
+        text-align: center; /* فہرست کی اشیاء کو مرکز میں رکھیں */
+    }
+}
+
+
+/* counting  */
+@media (max-width: 768px) {
+    .facts-item {
+        flex: 0 0 50%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .facts-item {
+        flex: 0 0 100%; 
+        padding: 20px 0; 
+    }
+}
+
+/* courses  */
+@media (max-width: 768px) {
+    .courses-section {
+        padding: 20px 10px; /* پیڈنگ کم کریں */
+    }
+
+    .courses-section .card {
+        margin: 20px auto; /* کارڈز کا مارجن خودکار کریں تاکہ وہ مرکز میں ہوں */
+        width: 90%; /* کارڈ کی چوڑائی کو 90% کریں */
+        margin-top: 10%; /* اوپر کا مارجن برقرار رکھیں */
+    }
+
+    .courses-section .card-title {
+        font-size: 1.2rem; /* عنوان کا سائز کم کریں */
+    }
+
+    .courses-section .card-text {
+        font-size: 0.9rem; /* متن کا سائز کم کریں */
+    }
+
+    .courses-section .card-text strong {
+        font-size: 0.9rem; /* طاقتور متن کا سائز کم کریں */
+    }
+}
+/* box bg  */
+@media (max-width: 768px) {
+    .duadivmain {
+        padding: 20px; /* پیڈنگ کو کم کریں */
+    }
+    .quote {
+        font-size: 18px; /* فونٹ سائز کو کم کریں */
+        margin-bottom: 15px; /* مارجن کو تھوڑا کم کریں */
+    }
+    .m_name {
+        font-size: 16px; /* فونٹ سائز کو تھوڑا کم کریں */
+        margin-bottom: 20px; /* مارجن کو کم کریں */
+    }
+}
+
+
+/* faq  */
+@media (max-width: 768px) {
+    .faq-section {
+        padding: 20px; /* پیڈنگ کو کم کریں */
+        margin: 20px auto; /* مارجن کو کم کریں */
+    }
+
+    .faq-item {
+        margin: 10px 0; /* آئٹمز کے درمیان مارجن کم کریں */
+        padding: 10px; /* آئٹمز کے اندر پیڈنگ کم کریں */
+    }
+
+    .faq-item h3 {
+        font-size: 1.1em; /* عنوان کا سائز کم کریں */
+    }
+
+    .faq-item p {
+        font-size: 0.9em; /* متن کا سائز کم کریں */
+    }
+
+    .faq-section h2 {
+        font-size: 1.5em; /* سیکشن کا عنوان کا سائز کم کریں */
+    }
+}
+
+
+/* whatsaap btn  and slider  */
+@media (max-width: 768px) {
+    /* WhatsApp Button */
+    .whatsapp-button {
+        width: 50px;  /* سائز کو کم کریں */
+        height: 50px; /* سائز کو کم کریں */
+        font-size: 24px; /* فونٹ سائز کو کم کریں */
+        bottom: 15px; /* نیچے کی جگہ کم کریں */
+        right: 15px; /* دائیں کی جگہ کم کریں */
+    }
+
+    
+}
+@media (max-width: 768px) {
+    /* Splide Brand Slider */
+    .splide__slide {
+        padding: 5px; /* پیڈنگ کم کریں */
+    }
+
+    .slide-content {
+        flex-direction: row; /* مواد کو ایک قطار میں رکھیں */
+        align-items: center;
+        padding: 10px; /* پیڈنگ کو مزید کم کریں */
+        width: 100%; /* مکمل چوڑائی استعمال کریں */
+        max-width: 100%; /* زیادہ سے زیادہ چوڑائی کو ہٹائیں */
+    }
+
+    .slide-icon {
+        font-size: 30px; /* آئیکن کا سائز چھوٹا کریں */
+        margin-right: 10px; /* آئیکن اور متن کے درمیان تھوڑی سی جگہ */
+    }
+
+    .slide-text h2 {
+        font-size: 16px; /* عنوان کا سائز چھوٹا کریں */
+        margin: 0; /* اضافی مارجن کو ہٹائیں */
+    }
+
+    .slide-text p {
+        font-size: 12px; /* متن کا سائز چھوٹا کریں */
+        margin: 0; /* اضافی مارجن کو ہٹائیں */
+    }
+}
+
+/* contact us  */
+
+/* Contact Us Responsive Styles */
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contact-us {
+        padding: 15px;
+    }
+    
+    .contact-us h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-us .card {
+        margin-top: 20px;
+    }
+    
+    .contact-us .img-container {
+        border-radius: 10px;
+    }
+
+    .contact-us .img-overlay {
+        bottom: 5%;
+        left: 10px;
+        right: 10px;
+        padding: 15px;
+    }
+
+    .contact-us .img-overlay h2 {
+        font-size: 1.5rem;
+    }
+
+    .contact-us .social-icons a {
+        font-size: 1.2rem;
+        padding: 8px;
+    }
+
+    .form-group label {
+        font-size: 1rem;
+    }
+
+    .form-control {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .contact-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-us h1 {
+        font-size: 1.5rem;
+    }
+
+    .contact-us .card {
+        padding: 15px;
+    }
+
+    .contact-us .img-overlay {
+        padding: 10px;
+    }
+
+    .form-group label {
+        font-size: 0.9rem;
+    }
+
+    .form-control {
+        font-size: 13px;
+    }
+
+    .contact-btn {
+        font-size: 13px;
+        padding: 8px;
+    }
+}
+
+/* froter  */
+/* Footer Basic Styles */
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .footer {
+        padding: 30px 20px;
+        font-size: 13px;
+    }
+
+    .footer h5 {
+        font-size: 1.2rem;
+    }
+
+    .social-icons a {
+        font-size: 1.3rem;
+        margin: 0 8px;
+    }
+
+    .footer-links li {
+        margin-bottom: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer h5 {
+        font-size: 1rem;
+    }
+
+    .social-icons a {
+        font-size: 1.2rem;
+    }
+
+    .footer-links li {
+        margin-bottom: 5px;
+    }
+
+    .btn-primary {
+        font-size: 14px;
+    }
+}
+
+
+
+
